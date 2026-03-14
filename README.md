@@ -38,15 +38,15 @@ The dataset includes transactions across customers, products, markets, and time 
 
 ---
 
-## Key Business Insights 📊
+## Key Business Insights 
 
-### 💰 Revenue Overview
+### Revenue Overview
 - **Total Revenue: ₹98.66 Crore** across all markets and years
 - **Peak Year: 2018** with ₹41.43 Crore — a **+342.7% YoY growth** from 2017
 - **2019 decline:** Revenue dropped by **18.8%** from peak, signaling market contraction
 - **2020 sharp decline:** Revenue fell by **57.7%** — likely impacted by external market disruptions
 
-### 🏙️ Top 5 Markets by Revenue
+### Top 5 Markets by Revenue
 | Market | Revenue |
 |--------|---------|
 | Delhi NCR | ₹52.07 Crore (52.8%) |
@@ -58,7 +58,7 @@ The dataset includes transactions across customers, products, markets, and time 
 - **Delhi NCR alone contributes 52.8% of total revenue** — highest market concentration
 - Top 3 markets together account for **81.4% of total revenue**
 
-### 👥 Top 5 Customers by Revenue
+###  Top 5 Customers by Revenue
 | Customer | Revenue |
 |----------|---------|
 | Electricalsara Stores | ₹41.39 Crore |
@@ -70,15 +70,15 @@ The dataset includes transactions across customers, products, markets, and time 
 - **Electricalsara Stores contributes ₹41.39 Crore** — nearly 42% of total revenue alone
 - High customer concentration risk — top customer is 8x larger than the second highest
 
-### 📅 Revenue by Year (YoY Trend)
+###  Revenue by Year (YoY Trend)
 | Year | Revenue | YoY Growth |
 |------|---------|------------|
 | 2017 | ₹9.36 Crore | — |
-| 2018 | ₹41.43 Crore | +342.7% 🔥 |
-| 2019 | ₹33.65 Crore | -18.8% 📉 |
-| 2020 | ₹14.22 Crore | -57.7% 📉 |
+| 2018 | ₹41.43 Crore | +342.7%  |
+| 2019 | ₹33.65 Crore | -18.8%  |
+| 2020 | ₹14.22 Crore | -57.7%  |
 
-### 🔍 Data Quality Finding
+###  Data Quality Finding
 - Identified **negative sales amount records** in raw transactions data
 - Cleaned and excluded invalid entries for accurate revenue reporting
 - Minor variance (~1.7M) between raw SQL total and Power BI confirmed due to filtered invalid records
@@ -131,4 +131,3 @@ The analysis revealed critical revenue concentration risks and actionable growth
 - Data validation across MySQL and Power BI confirmed accuracy of insights with <0.2% variance
 
 This project demonstrates strong SQL proficiency, structured analytical thinking, data validation skills, and the ability to convert raw transactional data into actionable business insights.
-
