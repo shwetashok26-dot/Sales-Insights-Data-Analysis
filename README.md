@@ -2,9 +2,8 @@
 
 ## Project Overview
 
-This project analyzes multi-dimensional sales transaction data to evaluate revenue performance, customer contribution, and market trends. The objective was to generate structured business insights that support data-driven decision-making at the management level.
-
-The dataset includes transactions across customers, products, markets, and time dimensions, enabling relational analysis using MySQL and dashboard visualization using Power BI.
+This project analyzes multi-dimensional sales transaction data to evaluate revenue performance, customer contribution, and market trends, generating structured business insights to support data-driven decision-making at the management level.
+The dataset spans customers, products, markets, and time dimensions, enabling relational analysis in MySQL and interactive dashboard visualization in Power BI.
 
 ---
 
